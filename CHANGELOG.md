@@ -1,3 +1,14 @@
+### 3.5.0
+- Adds support for spark 3.0 and scala 2.12
+### 3.3.4
+- Fixes an issue in Streaming preventing docs with MapType to be ingested into Cosmos DB
+
+### 3.3.3
+- Fixes an issue preventing apps from gracefully shutting down by moving Timer task in CosmosDBConnectionCache to a daemon thread
+
+### 3.3.2
+- Fixes an issue preventing updates to existing documents being captured in bookmarks when maxPagesPerBatch is used with streaming. 
+
 ### 3.3.1
 - Fixes null pointer exception in streaming schema inference. 
 
